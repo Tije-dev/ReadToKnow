@@ -36,8 +36,8 @@ body {
 
 /* Logo box */
 .logo-box {
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
     background-color: #ffffff;
     border-radius: 12px;
     display: flex;
