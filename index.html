@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ReadToKnow</title>
-    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
@@ -17,12 +17,20 @@
         <div class="logo-box">
             <img src="assets/img/logo.jpeg" alt="Project Logo">
         </div>
+        <div class="maintenance-card" role="status" aria-live="polite">
+            <h2 class="maintenance-title">We’re currently under maintenance</h2>
+            <p class="maintenance-eta">Estimated return: <strong>Dec 30, 2025</strong> (UTC)</p>
+            <p class="maintenance-help">Need help? <a href="mailto:readtoknow25@gmail.com">Email us</a> or follow us on <a href="https://www.facebook.com/share/1Bf3HQb29P/">facebook</a>.</p>
+            <button id="openSupport" class="cta-btn" type="button" aria-haspopup="dialog" aria-controls="supportModal">Contact Support</button>
+        </div>
+        <!-- Support modal will be created dynamically when needed -->
     </main>
 
     <footer class="site-footer" role="contentinfo" aria-label="Site footer">
-        <p class="maintenance" aria-live="polite">We’re currently under maintenance. Please check back shortly.</p>
         <p class="project-note">ReadToKnow is being built for FlowDiary Hackathon 2025. Stay tuned</p>
     </footer>
+
+    <script src="assets/js/support.js" defer></script>
 
 </body>
 </html>
