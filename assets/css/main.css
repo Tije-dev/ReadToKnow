@@ -123,6 +123,7 @@ body {
     background: #064b9e;
     color: #fff;
     border-radius: 8px;
+    border: none;
     text-decoration: none;
     font-weight: 700;
     transition: background 0.3s ease, transform 0.2s ease;
